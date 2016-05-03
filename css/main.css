@@ -1,0 +1,110 @@
+/*Portfolio Template Styles*/
+
+/*Global Styles*/
+body, html{
+  margin: 0;
+  background-color: black;
+  font-family: "Verdana", Verdana, sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+/*Header Styles*/
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #FF7D2C;
+}
+
+.logo{
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.menu li{
+  display: inline;
+  margin: 20px 20px;
+}
+
+.menu {
+height: 100%;
+width: 400px;
+padding: 30px 0px;
+float: right;
+}
+
+/*.quick_links{
+height: 1000px;
+width: 125px;
+background-color: #FF7A00;
+text-align: center;
+}
+
+.quick_links li{
+  padding: 10px 0px;
+}*/
+
+/*Banner Styles*/
+
+#banner{
+  height: 500px;
+  width: 100%;
+  background: url("../img/sky-lights-space-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h2{
+  text-align: center;
+  padding: 60px;
+  font-size: 2em;
+  color: white;
+}
+
+/*Skills Styling*/
+
+#skills{
+  height: 500px;
+  width: 100%;
+  background-color: #2E6ABD;
+}
+
+.skills-container{
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 25%;
+  height: 75%;
+  background-color: #20BB98;
+  float: left;
+  margin: 50px 24px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+#skills article h1{
+  text-align: center;
+}
